@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-columns: minmax(200px, auto);
+      }
+      .container > div {
+        background: #da9696;
+        padding: 1em;
+      }
+      .container > div:nth-child(odd) {
+        background: #794949;
+      }
+      .nested {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-gap: 1em;
+      }
+      .div {
+        width: 20px;
+        padding: 1em;
+        border: 1px solid black;
+      }
+      .div1 {
+      }
+      .div2 {
+      }
+      .div3 {
+      }
+      .div4 {
+      }
+      .div5 {
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Nested Divs using <code>CSS Grid Concept</code></h1>
+    <div class="container">
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+        fugit repellat esse, quam, voluptatem ipsam est perspiciatis nesciunt
+        magni animi quos neque eveniet accusantium ad. Nemo illum magni qui
+        commodi.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+        fugit repellat esse, quam, voluptatem ipsam est perspiciatis nesciunt
+        magni animi quos neque eveniet accusantium ad. Nemo illum magni qui
+        commodi.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+        fugit repellat esse, quam, voluptatem ipsam est perspiciatis nesciunt
+        magni animi quos neque eveniet accusantium ad. Nemo illum magni qui
+        commodi.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+        fugit repellat esse, quam, voluptatem ipsam est perspiciatis nesciunt
+        magni animi quos neque eveniet accusantium ad. Nemo illum magni qui
+        commodi.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+        fugit repellat esse, quam, voluptatem ipsam est perspiciatis nesciunt
+        magni animi quos neque eveniet accusantium ad. Nemo illum magni qui
+        commodi.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+        fugit repellat esse, quam, voluptatem ipsam est perspiciatis nesciunt
+        magni animi quos neque eveniet accusantium ad. Nemo illum magni qui
+        commodi.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+        fugit repellat esse, quam, voluptatem ipsam est perspiciatis nesciunt
+        magni animi quos neque eveniet accusantium ad. Nemo illum magni qui
+        commodi.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+        fugit repellat esse, quam, voluptatem ipsam est perspiciatis nesciunt
+        magni animi quos neque eveniet accusantium ad. Nemo illum magni qui
+        commodi.
+      </div>
+      <div class="nested">
+        <div class="div div1">DIV 1</div>
+        <div class="div div2">DIV 2</div>
+        <div class="div div3">DIV 3</div>
+        <div class="div div4">DIV 4</div>
+        <div class="div div5">DIV 5</div>
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+        fugit repellat esse, quam, voluptatem ipsam est perspiciatis nesciunt
+        magni animi quos neque eveniet accusantium ad. Nemo illum magni qui
+        commodi.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+        fugit repellat esse, quam, voluptatem ipsam est perspiciatis nesciunt
+        magni animi quos neque eveniet accusantium ad. Nemo illum magni qui
+        commodi.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+        fugit repellat esse, quam, voluptatem ipsam est perspiciatis nesciunt
+        magni animi quos neque eveniet accusantium ad. Nemo illum magni qui
+        commodi.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+        fugit repellat esse, quam, voluptatem ipsam est perspiciatis nesciunt
+        magni animi quos neque eveniet accusantium ad. Nemo illum magni qui
+        commodi.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+        fugit repellat esse, quam, voluptatem ipsam est perspiciatis nesciunt
+        magni animi quos neque eveniet accusantium ad. Nemo illum magni qui
+        commodi.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+        fugit repellat esse, quam, voluptatem ipsam est perspiciatis nesciunt
+        magni animi quos neque eveniet accusantium ad. Nemo illum magni qui
+        commodi.
+      </div>
+    </div>
+  </body>
+</html>
