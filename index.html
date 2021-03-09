@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 3fr 1fr 2fr;
+        grid-auto-columns: minmax(100px, auto);
+        grid-gap: 2em;
+      }
+      .container > div {
+        padding: 10px;
+        background: #807676;
+        border: 1px solid grey;
+      }
+      .container > div:nth-child(odd) {
+        background: #cccbcbfd;
+      }
+    </style>
+    <title>CSS Grid Layout</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto
+        qui quo vitae odit possimus voluptates quae porro quis dolor aliquam
+        consectetur, quos alias nesciunt itaque est rerum nihil eum?
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto
+        qui quo vitae odit possimus voluptates quae porro quis dolor aliquam
+        consectetur, quos alias nesciunt itaque est rerum nihil eum? Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Impedit sint adipisci quo,
+        incidunt vitae dolore illo asperiores nobis, error architecto dolores
+        eius, natus saepe minima optio molestias dolorum perferendis eveniet.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto
+        qui quo vitae odit possimus voluptates quae porro quis dolor aliquam
+        consectetur, quos alias nesciunt itaque est rerum nihil eum?
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto
+        qui quo vitae odit possimus voluptates quae porro quis dolor aliquam
+        consectetur, quos alias nesciunt itaque est rerum nihil eum?
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto
+        qui quo vitae odit possimus voluptates quae porro quis dolor aliquam
+        consectetur, quos alias nesciunt itaque est rerum nihil eum?
+      </div>
+    </div>
+  </body>
+</html>
